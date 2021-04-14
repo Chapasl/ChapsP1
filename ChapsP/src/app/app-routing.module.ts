@@ -15,6 +15,10 @@ const routes: Routes = [
     path: 'gal',
     loadChildren: () => import('./gal/gal.module').then( m => m.GalPageModule)
   },
+  {
+    path: 'cont',
+    loadChildren: () => import('./cont/cont.module').then( m => m.ContPageModule)
+  },
 ];
 
 @NgModule({
