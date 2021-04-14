@@ -1,0 +1,7 @@
+{
+  "name": "ChapsP",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
