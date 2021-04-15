@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  proyectos=[
+    {tittle: 'hola a todos', content:'esta app trata de no'},
+    {tittle: 'dsfsdf', content:'iopuiopuiop'}
+  ];
 
   constructor() {}
 

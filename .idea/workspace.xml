@@ -21,26 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="00553839-4c89-4aeb-b352-268cc6faf21d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.module.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/chaps_ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/chaps_ico.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/chaps_icob.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/chaps_icob.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/chaps_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/chaps_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/chaps_neg.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/chaps_neg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/contacto_card.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/contacto_card.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/diseno.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/diseno.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/electronica.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/electronica.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/gal/KINGMAN.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/gal/KINGMAN.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/gal/OMINSHUK.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/gal/OMINSHUK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/gal/SHUK.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/gal/SHUK.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/gal/VENNOM.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/gal/VENNOM.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/gal/insani_robotica.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/gal/insani_robotica.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/galeria_card.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/galeria_card.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/redes/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/redes/facebook.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/redes/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/redes/instagram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/redes/linkedin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/redes/linkedin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/web.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/web.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/img/www.png" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/assets/img/www.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618372252097</updated>
       <workItem from="1618372254736" duration="2116000" />
-      <workItem from="1618458690303" duration="2185000" />
+      <workItem from="1618458690303" duration="6980000" />
     </task>
     <servers />
   </component>

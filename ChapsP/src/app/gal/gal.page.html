@@ -1,9 +1,35 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>gal</ion-title>
+    <ion-title>
+      Galería
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-button routerLink="/home">
+          Inicio
+        </ion-button>
+      </ion-col>
+      <ion-col size="6">
+        <ion-button routerLink="/cont">
+          Contacto
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
+  <!--  <div id="container">-->
+  <!--    <strong>Ready to create an app?</strong>-->
+  <!--    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
+  <!--  </div>-->
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Footer</ion-title>
+  </ion-toolbar>
+</ion-footer>
