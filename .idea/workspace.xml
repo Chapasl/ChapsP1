@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00553839-4c89-4aeb-b352-268cc6faf21d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/ChapsP/src/app/home/home.page.ts" afterDir="false" />
-    </list>
+    <list default="true" id="00553839-4c89-4aeb-b352-268cc6faf21d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618372252097</updated>
       <workItem from="1618372254736" duration="2116000" />
-      <workItem from="1618458690303" duration="6980000" />
+      <workItem from="1618458690303" duration="7327000" />
     </task>
     <servers />
   </component>
@@ -77,5 +71,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1618467957811">
+      <screen x="1366" y="0" width="1825" height="987" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1298.690/1366.0.1825.987/-1366.0.1298.690@1366.0.1825.987" timestamp="1618467957811" />
   </component>
 </project>
