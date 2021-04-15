@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00553839-4c89-4aeb-b352-268cc6faf21d" name="Default Changelist" comment="" />
+    <list default="true" id="00553839-4c89-4aeb-b352-268cc6faf21d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +57,7 @@
       <updated>1618372252097</updated>
       <workItem from="1618372254736" duration="2116000" />
       <workItem from="1618458690303" duration="7327000" />
+      <workItem from="1618519228377" duration="635000" />
     </task>
     <servers />
   </component>
@@ -71,6 +74,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state width="498" height="446" key="SwitcherDM" timestamp="1618467957811">
