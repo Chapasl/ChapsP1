@@ -1,48 +1,110 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      <ion-img style="height:80px; width: 80px" src="assets/img/chaps_logo.png"></ion-img>
-    </ion-title>
+    <ion-row>
+      <ion-col size-xs="1" size-sm="1" size-md="1" size-lg="1" size-xl="1">
+        <ion-title>
+          <h1 style="display: none">Chaps</h1>
+        </ion-title>
+      </ion-col>
+
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="4" size-xl="4" pull="0">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/home">Inicio</ion-button>
+      </ion-col>
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="3" size-xl="4" push="1">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/gal"> Galería </ion-button>
+      </ion-col>
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="3" size-xl="4" push="1">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/cont">Contacto</ion-button>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-header>
 
-
-
 <ion-content [fullscreen]="true">
   <ion-grid>
-    <ion-row>
-      <ion-col>
-        <ion-img src="assets/img/chaps_logo.png"></ion-img>
+
+    <ion-row style="background-color: white">
+      <ion-col size="10" push="1">
+        <ion-img  style="with:50%" src="assets/img/chaps_logo.png" alt=""></ion-img>
       </ion-col>
     </ion-row>
+
     <ion-row>
-      <ion-col *ngFor="let proyecto of proyectos">
-        {{proyecto.tittle}}
-        {{proyecto.content}}
+      <ion-img  src="assets/img/diseno.png" alt=""></ion-img>
+    </ion-row>
+
+    <ion-row>
+      <ion-col align="center">
+        <h1 align="center">Santiago Paladines</h1>
+        <h2 align="center">Electrónica y Multimedia</h2>
       </ion-col>
     </ion-row>
+
     <ion-row>
-      <ion-col size="6">
-        <ion-button routerLink="/gal">
+      <ion-col size="6" align="Center">
+        <ion-card>
+          <img src="assets/img/galeria_card.jpeg" alt=""/>
+          <ion-card-content>
+            <ion-card-title>
+              Portafolio
+            </ion-card-title>
+            <p>
+              Un poco más de los proyectos realizados
+            </p>
+          </ion-card-content>
+        </ion-card>
+        <ion-button  routerLink="/gal">
           Galería
         </ion-button>
       </ion-col>
-      <ion-col size="6">
+      <ion-col size="6" align="center">
+        <ion-card>
+          <img src="assets/img/contacto_card.jpeg" alt=""/>
+          <ion-card-content>
+            <ion-card-title>
+              ¿Necesita mas información?
+            </ion-card-title>
+            <p>
+              Por favor accede al siguiente enlace y deja tus datos
+            </p>
+          </ion-card-content>
+        </ion-card >
         <ion-button routerLink="/cont">
           Contacto
         </ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
-
-  <!--  <div id="container">-->
-<!--    <strong>Ready to create an app?</strong>-->
-<!--    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
-<!--  </div>-->
 </ion-content>
 
 <ion-footer>
   <ion-toolbar>
-    <ion-title>Footer</ion-title>
+    <ion-row>
+      <ion-col size="6" push="1">
+        <h3 style="color: white; font-family: 'Corbel Light',serif; font-size: 15px">
+          Santiago Paladines B.<br>
+          slpaladines@gmail.com<br>
+          +593 995160066.<br>
+          Loja-Ecuador.<br>
+        </h3>
+      </ion-col>
+
+      <ion-col size="6" align="center">
+        <h3 style="color: white; font-family: 'Corbel Light',serif; font-size: 15px">
+          <b>REDES SOCIALES</b>
+        </h3>
+        <div class="redes-footer">
+          <a href="https://www.facebook.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/facebook.svg" width="35" height="35" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/instagram.svg" width="35" height="35" alt="Instagram">
+          </a>
+          <a href="https://www.linkedin.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/linkedin.svg" width="35" height="35" alt="LinkedIn">
+          </a>
+        </div>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-footer>

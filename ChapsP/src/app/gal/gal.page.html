@@ -1,35 +1,145 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Galería
-    </ion-title>
+    <ion-row>
+      <ion-col size-xs="1" size-sm="1" size-md="1" size-lg="1" size-xl="1">
+        <ion-title>
+          <h1 style="display: none">Chaps</h1>
+        </ion-title>
+      </ion-col>
+
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="4" size-xl="4" pull="0">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/home">Inicio</ion-button>
+      </ion-col>
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="3" size-xl="4" push="1">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/gal"> Galería </ion-button>
+      </ion-col>
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="3" size-xl="4" push="1">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/cont">Contacto</ion-button>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
   <ion-grid>
+    <br>
+    <ion-row>
+      <ion-col size="6"  push="2">
+        <ion-img style="height:100%" src="assets/img/gal/insani_robotica.png"></ion-img>
+      </ion-col>
+    </ion-row>
     <ion-row>
       <ion-col size="6">
-        <ion-button routerLink="/home">
+        <ion-card color="transparent">
+          <img src="assets/img/gal/SHUK.png" alt=""/>
+          <ion-card-content>
+            <ion-card-title>
+              Shuk
+            </ion-card-title>
+            <p>
+              Robot diseñado para la electrónica
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card color="transparent">
+          <img src="assets/img/gal/VENNOM.png" alt=""/>
+          <ion-card-content>
+            <ion-card-title>
+              Vennom
+            </ion-card-title>
+            <p>
+              Robot diseñado para la enseñar diseño mecánico
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6">
+        <ion-card color="transparent">
+          <img src="assets/img/gal/KINGMAN.png" alt=""/>
+          <ion-card-content>
+            <ion-card-title>
+              Kingman
+            </ion-card-title>
+            <p>
+              Robot diseñado para la enseñar a programar y dibujar
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6" >
+        <ion-card color="transparent">
+          <img src="assets/img/gal/OMINSHUK.png" alt=""/>
+          <ion-card-content>
+            <ion-card-title>
+              OmniShuk
+            </ion-card-title>
+            <p>
+              Robot con destreza de movimiento
+            </p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+    <br>
+
+    <ion-row>
+      <ion-col push="1">
+        <h2 style="color: white; font-family: 'Corbel',serif; font-size: 30px">Navegación</h2>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6" align="center">
+        <ion-button style="color: white; font-family: 'Corbel Light',serif; font-size: 15px" routerLink="/home">
           Inicio
         </ion-button>
       </ion-col>
-      <ion-col size="6">
-        <ion-button routerLink="/cont">
+      <ion-col size="6" align="center">
+        <ion-button style="color: white; font-family: 'Corbel Light',serif; font-size: 15px" routerLink="/cont">
           Contacto
         </ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
-
-  <!--  <div id="container">-->
-  <!--    <strong>Ready to create an app?</strong>-->
-  <!--    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
-  <!--  </div>-->
 </ion-content>
 
 <ion-footer>
   <ion-toolbar>
-    <ion-title>Footer</ion-title>
+    <ion-row>
+      <ion-col size="6" push="1">
+        <h3 style="color: white; font-family: 'Corbel Light',serif; font-size: 15px">
+          Santiago Paladines B.<br>
+          slpaladines@gmail.com<br>
+          +593 995160066.<br>
+          Loja-Ecuador.<br>
+        </h3>
+      </ion-col>
+
+      <ion-col size="6" align="center">
+        <h3 style="color: white; font-family: 'Corbel Light',serif; font-size: 15px">
+          <b>REDES SOCIALES</b>
+        </h3>
+        <div class="redes-footer">
+          <a href="https://www.facebook.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/facebook.svg" width="35" height="35" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/instagram.svg" width="35" height="35" alt="Instagram">
+          </a>
+          <a href="https://www.linkedin.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/linkedin.svg" width="35" height="35" alt="LinkedIn">
+          </a>
+        </div>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-footer>

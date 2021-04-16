@@ -1,37 +1,127 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Contacto
-    </ion-title>
+    <ion-row>
+      <ion-col size-xs="1" size-sm="1" size-md="1" size-lg="1" size-xl="1">
+        <ion-title>
+          <h1 style="display: none">Chaps</h1>
+        </ion-title>
+      </ion-col>
+
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="4" size-xl="4" pull="0">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/home">Inicio</ion-button>
+      </ion-col>
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="3" size-xl="4" push="1">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/gal"> Galería </ion-button>
+      </ion-col>
+      <ion-col size-xs="3" size-sm="3" size-md="3" size-lg="3" size-xl="4" push="1">
+        <ion-button color="transparent" style="color: white; font-family: 'Corbel',serif" routerLink="/cont">Contacto</ion-button>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-header>
 
 
-
 <ion-content [fullscreen]="true">
   <ion-grid>
+    <br>
     <ion-row>
-      <ion-col size="6">
-        <ion-button routerLink="/gal">
+      <ion-col size="6"  push="3">
+        <ion-img style="height:100%" src="assets/img/chaps_neg.png"></ion-img>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col >
+        <h1 style="color: white; font-family: 'Corbel',serif">Contacto</h1>
+        <p style="color: white; font-family: 'Corbel Light',serif">Por favor llene todo los datos solicitados y nos pondremos en contacto con usted</p>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-item>
+            <ion-label color="primary">Nombres</ion-label>
+            <ion-input placeholder="Ingrese su Nombre"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label color="primary">Apellidos</ion-label>
+            <ion-input placeholder="Ingrese su Apellido"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label color="primary">Correo</ion-label>
+            <ion-input type="email" placeholder="Ingrese su Email"></ion-input>
+          </ion-item>
+
+          <ion-item>
+            <ion-label color="primary">Como le podemos ayudar</ion-label>
+            <ion-input type="email" placeholder="Deje su comentario por favor"></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col align="right">
+        <ion-button>
+          Enviar
+        </ion-button>
+      </ion-col>
+    </ion-row>
+
+    <br>
+
+    <ion-row>
+      <ion-col push="1">
+        <h2 style="color: white; font-family: 'Corbel',serif; font-size: 30px">Navegación</h2>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6" align="center">
+        <ion-button style="color: white; font-family: 'Corbel Light',serif; font-size: 15px" routerLink="/gal">
           Galería
         </ion-button>
       </ion-col>
-      <ion-col size="6">
-        <ion-button routerLink="/home">
+      <ion-col size="6" align="center">
+        <ion-button style="color: white; font-family: 'Corbel Light',serif; font-size: 15px"  routerLink="/home">
           Inicio
         </ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>
-
-  <!--  <div id="container">-->
-  <!--    <strong>Ready to create an app?</strong>-->
-  <!--    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>-->
-  <!--  </div>-->
 </ion-content>
 
 <ion-footer>
   <ion-toolbar>
-    <ion-title>Footer</ion-title>
+    <ion-row>
+      <ion-col size="6" push="1">
+        <h3 style="color: white; font-family: 'Corbel Light',serif; font-size: 15px">
+          Santiago Paladines B.<br>
+          slpaladines@gmail.com<br>
+          +593 995160066.<br>
+          Loja-Ecuador.<br>
+        </h3>
+      </ion-col>
+
+      <ion-col size="6" align="center">
+        <h3 style="color: white; font-family: 'Corbel Light',serif; font-size: 15px">
+          <b>REDES SOCIALES</b>
+        </h3>
+        <div class="redes-footer">
+          <a href="https://www.facebook.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/facebook.svg" width="35" height="35" alt="Facebook">
+          </a>
+          <a href="https://www.instagram.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/instagram.svg" width="35" height="35" alt="Instagram">
+          </a>
+          <a href="https://www.linkedin.com/" style="padding-right: 10px">
+            <img src="assets/img/redes/linkedin.svg" width="35" height="35" alt="LinkedIn">
+          </a>
+        </div>
+      </ion-col>
+    </ion-row>
   </ion-toolbar>
 </ion-footer>
